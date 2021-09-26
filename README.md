@@ -20,6 +20,8 @@ This repository contains code which demonstrates Dev-Sec-Ops using a `FastAPI` a
 
 ## Assignment Tasks
 - Fix badge to show coverage for your repo. (hint: find correct link for badge from codecov.io)
+- [![codecov](https://codecov.io/gh/githubksrc/devsecops-iris/branch/master/graph/badge.svg?token=OFWS9E4O1T)](https://codecov.io/gh/githubksrc/devsecops-iris)
+
 - Add OS to matrix strategy along with PYTHON to test with different operating systems like `ubuntu-latest`, `windows-latest`  etc.
 - Improve code coverage and bring it above 95%
 - Make a visualisation for sarif report using any tool. upload screenshot, image, html or pdf. Add it to the reports/ folder. 
