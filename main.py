@@ -24,6 +24,7 @@ class QueryOut(BaseModel):
     flower_class: str
 
 
+#Coomentd by Murthy
 # class which is expected in the payload while re-training
 # class FeedbackIn(BaseModel):
 #     sepal_length: float
@@ -48,7 +49,7 @@ def predict_flower(query_data: QueryIn):
     output = {"flower_class": predict(query_data)}
     return output
 
-
+#Coomentd by Murthy
 # @app.post("/feedback_loop", status_code=200)
 # # Route to further train the model based on user input in form of feedback loop
 # # Payload: FeedbackIn containing the parameters and correct flower class
@@ -57,7 +58,7 @@ def predict_flower(query_data: QueryIn):
 #     retrain(data)
 #     return {"detail": "Feedback loop successful"}
 
-
+#Coomentd by Murthy
 # Main function to start the app when main.py is called
 #if __name__ == "__main__":
     # Uvicorn is used to run the server and listen for incoming API requests on 0.0.0.0:8888
